@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("mani80dockerid/test")
+       app = docker.build("manikandan1084/test")
     }
 
     stage('Test image') {
